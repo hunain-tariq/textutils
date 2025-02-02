@@ -39,10 +39,10 @@ const[text , setText] = useState('');
         <div className="mb-3">
             <textarea className="form-control" id="mybox" value={text} onChange={changefunction} rows="8"></textarea>
         </div>
-        <button className='btn btn-primary mx-2' onClick={onUppercase}>Convert To UpperCase</button>
-        <button className='btn btn-primary mx-2' onClick={onLowercase}>Convert To Lowercase</button>
-        <button className='btn btn-primary mx-2' onClick={handleTextToSpeechClick}>Text to Speech</button>
-        <button className='btn btn-primary mx-2' onClick={cleartext}>Clear Text</button>
+        <button className='btn btn-primary mx-2 my-1' onClick={onUppercase}>Convert To UpperCase</button>
+        <button className='btn btn-primary mx-2 my-1' onClick={onLowercase}>Convert To Lowercase</button>
+        <button className='btn btn-primary mx-2 my-1' onClick={handleTextToSpeechClick}>Text to Speech</button>
+        <button className='btn btn-primary mx-2 my-1' onClick={cleartext}>Clear Text</button>
 
     </div>
     </div>
